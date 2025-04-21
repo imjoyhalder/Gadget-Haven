@@ -1,0 +1,273 @@
+[
+    {
+      "id": 1,
+      "product_title": "Wireless Noise-Cancelling Headphones",
+      "product_image": "https://cdn.pixabay.com/photo/2016/11/29/02/50/headphones-1868612_1280.jpg",
+      "category": "Audio",
+      "price": 4999,
+      "description": "Immersive over-ear headphones with active noise cancellation and deep bass.",
+      "Specification": [
+        "Bluetooth 5.0",
+        "Battery Life: 30 hours",
+        "USB-C Fast Charging",
+        "Touch Controls"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "SoundMax",
+      "warranty": "1 year"
+    },
+    {
+      "id": 2,
+      "product_title": "Smart Fitness Tracker",
+      "product_image": "https://cdn.pixabay.com/photo/2018/05/08/08/49/smart-watch-3384014_1280.jpg",
+      "category": "Wearables",
+      "price": 2999,
+      "description": "Track your health with heart rate monitoring, step counting, and sleep tracking.",
+      "Specification": [
+        "OLED Display",
+        "Water Resistant",
+        "Bluetooth Sync",
+        "7-day Battery"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "FitLife",
+      "warranty": "6 months"
+    },
+    {
+      "id": 3,
+      "product_title": "Portable Bluetooth Speaker",
+      "product_image": "https://cdn.pixabay.com/photo/2017/01/06/19/15/speaker-1950974_1280.jpg",
+      "category": "Audio",
+      "price": 1999,
+      "description": "Pocket-sized speaker with punchy sound and long battery life.",
+      "Specification": [
+        "Bluetooth 4.2",
+        "10 Hours Playback",
+        "Splash Proof",
+        "Built-in Mic"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "BeatBox",
+      "warranty": "1 year"
+    },
+    {
+      "id": 4,
+      "product_title": "Wireless Charging Pad",
+      "product_image": "https://cdn.pixabay.com/photo/2019/04/11/18/27/wireless-charger-4117440_1280.jpg",
+      "category": "Accessories",
+      "price": 999,
+      "description": "Charge your phone wirelessly with fast charging support.",
+      "Specification": [
+        "Qi-Certified",
+        "LED Indicator",
+        "Overheat Protection",
+        "Non-Slip Base"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "brand": "ChargeEase",
+      "warranty": "1 year"
+    },
+    {
+      "id": 5,
+      "product_title": "Home Security Camera",
+      "product_image": "https://cdn.pixabay.com/photo/2017/03/28/12/10/surveillance-2188455_1280.jpg",
+      "category": "Home Security",
+      "price": 3499,
+      "description": "HD camera with night vision and two-way audio for real-time home monitoring.",
+      "Specification": [
+        "1080p Video",
+        "Night Vision",
+        "Wi-Fi Enabled",
+        "Motion Detection"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "SecureCam",
+      "warranty": "2 years"
+    },
+    {
+      "id": 6,
+      "product_title": "Wireless Ergonomic Mouse",
+      "product_image": "https://cdn.pixabay.com/photo/2016/03/27/20/59/mouse-1284015_1280.jpg",
+      "category": "Computer Accessories",
+      "price": 1299,
+      "description": "Comfortable wireless mouse with long battery life and customizable DPI.",
+      "Specification": [
+        "2.4GHz Wireless",
+        "Ergonomic Shape",
+        "Adjustable DPI",
+        "Battery Life: 12 months"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "ClickPro",
+      "warranty": "1 year"
+    },
+    {
+      "id": 7,
+      "product_title": "Smart LED Light Bulb",
+      "product_image": "https://cdn.pixabay.com/photo/2017/02/01/22/02/light-bulb-2037322_1280.jpg",
+      "category": "Smart Home",
+      "price": 799,
+      "description": "Color-changing LED bulb controllable via smartphone or voice assistant.",
+      "Specification": [
+        "16 Million Colors",
+        "App & Voice Control",
+        "Energy Efficient",
+        "Wi-Fi Enabled"
+      ],
+      "availability": true,
+      "rating": 4.2,
+      "brand": "LumaSmart",
+      "warranty": "1 year"
+    },
+    {
+      "id": 8,
+      "product_title": "USB-C Hub with HDMI",
+      "product_image": "https://cdn.pixabay.com/photo/2017/05/10/13/21/usb-2308983_1280.jpg",
+      "category": "Computer Accessories",
+      "price": 1499,
+      "description": "Multiport adapter with USB, HDMI, and card reader support.",
+      "Specification": [
+        "USB 3.0 x3",
+        "HDMI Output",
+        "SD/MicroSD Reader",
+        "Aluminum Build"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "ConnectPlus",
+      "warranty": "1 year"
+    },
+    {
+      "id": 9,
+      "product_title": "Wireless Keyboard",
+      "product_image": "https://cdn.pixabay.com/photo/2015/12/08/00/32/keyboard-1083983_1280.jpg",
+      "category": "Computer Accessories",
+      "price": 1799,
+      "description": "Slim Bluetooth keyboard ideal for typing on the go.",
+      "Specification": [
+        "Bluetooth 5.1",
+        "Rechargeable",
+        "Multi-Device Support",
+        "Silent Keys"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "TypeEase",
+      "warranty": "1 year"
+    },
+    {
+      "id": 10,
+      "product_title": "Smartphone Gimbal Stabilizer",
+      "product_image": "https://cdn.pixabay.com/photo/2020/08/08/20/29/gimbal-5472800_1280.jpg",
+      "category": "Photography",
+      "price": 5999,
+      "description": "Capture cinematic video on your phone with 3-axis stabilization.",
+      "Specification": [
+        "3-Axis Stabilization",
+        "Foldable Design",
+        "App Control",
+        "12-Hour Battery"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "SteadyShot",
+      "warranty": "1 year"
+    },
+    {
+      "id": 11,
+      "product_title": "VR Headset",
+      "product_image": "https://cdn.pixabay.com/photo/2017/01/10/02/22/vr-1965292_1280.jpg",
+      "category": "Gaming",
+      "price": 8999,
+      "description": "Immersive virtual reality headset compatible with multiple platforms.",
+      "Specification": [
+        "120° FOV",
+        "Built-in Headphones",
+        "Adjustable Strap",
+        "Supports Android & PC"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "brand": "VReal",
+      "warranty": "1 year"
+    },
+    {
+      "id": 12,
+      "product_title": "Digital DSLR Camera",
+      "product_image": "https://cdn.pixabay.com/photo/2015/05/13/23/57/camera-765183_1280.jpg",
+      "category": "Photography",
+      "price": 32999,
+      "description": "DSLR camera with high-resolution sensor and versatile lens compatibility.",
+      "Specification": [
+        "24.2 MP Sensor",
+        "Full HD Video",
+        "Wi-Fi & NFC",
+        "Interchangeable Lens"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "SnapPro",
+      "warranty": "2 years"
+    },
+    {
+      "id": 13,
+      "product_title": "Smartwatch with GPS",
+      "product_image": "https://cdn.pixabay.com/photo/2017/01/06/19/15/smartwatch-1950973_1280.jpg",
+      "category": "Wearables",
+      "price": 5999,
+      "description": "Stylish smartwatch with GPS tracking, heart rate monitoring, and notifications.",
+      "Specification": [
+        "Built-in GPS",
+        "Fitness Tracking",
+        "Touchscreen Display",
+        "Water Resistant"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "TimeTrack",
+      "warranty": "1 year"
+    },
+    {
+      "id": 14,
+      "product_title": "Laptop Cooling Pad",
+      "product_image": "https://cdn.pixabay.com/photo/2020/08/01/06/44/laptop-5452884_1280.jpg",
+      "category": "Computer Accessories",
+      "price": 1299,
+      "description": "Keep your laptop cool with this silent and adjustable cooling pad.",
+      "Specification": [
+        "Dual Fans",
+        "Height Adjustable",
+        "LED Lights",
+        "USB Powered"
+      ],
+      "availability": true,
+      "rating": 4.2,
+      "brand": "CoolMaster",
+      "warranty": "6 months"
+    },
+    {
+      "id": 15,
+      "product_title": "Digital Drawing Tablet",
+      "product_image": "https://cdn.pixabay.com/photo/2021/09/22/11/32/drawing-tablet-6646592_1280.jpg",
+      "category": "Creative",
+      "price": 8999,
+      "description": "Pressure-sensitive drawing tablet for digital artists and designers.",
+      "Specification": [
+        "8192 Levels Pressure",
+        "USB & Bluetooth",
+        "Pen Included",
+        "10x6.25 inch Active Area"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "SketchPad",
+      "warranty": "1 year"
+    }
+  ]
+  

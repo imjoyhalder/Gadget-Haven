@@ -1,6 +1,7 @@
 import Link from 'daisyui/components/link';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import banner from '../../assets/banner.jpg'
 
 const NavBar = () => {
 
@@ -44,7 +45,7 @@ const NavBar = () => {
                     />
                 </button>
             </div>
-
+            
         </div>
     );
 };
