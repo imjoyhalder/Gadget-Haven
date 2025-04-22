@@ -30,7 +30,7 @@
         "Bluetooth Sync",
         "7-day Battery"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.5,
       "brand": "FitLife",
       "warranty": "6 months"
