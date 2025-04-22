@@ -2,7 +2,7 @@
     {
       "id": 1,
       "product_title": "Wireless Noise-Cancelling Headphones",
-      "product_image": "https://cdn.pixabay.com/photo/2016/11/29/02/50/headphones-1868612_1280.jpg",
+      "product_image": "https://sony.scene7.com/is/image/sonyglobalsolutions/wh-ch720_Primary_image?$categorypdpnav$&fmt=png-alpha",
       "category": "Audio",
       "price": 4999,
       "description": "Immersive over-ear headphones with active noise cancellation and deep bass.",
@@ -20,7 +20,7 @@
     {
       "id": 2,
       "product_title": "Smart Fitness Tracker",
-      "product_image": "https://cdn.pixabay.com/photo/2018/05/08/08/49/smart-watch-3384014_1280.jpg",
+      "product_image": "https://images.unsplash.com/photo-1669480380743-f76990b9bc44?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Wearables",
       "price": 2999,
       "description": "Track your health with heart rate monitoring, step counting, and sleep tracking.",
@@ -38,7 +38,7 @@
     {
       "id": 3,
       "product_title": "Portable Bluetooth Speaker",
-      "product_image": "https://cdn.pixabay.com/photo/2017/01/06/19/15/speaker-1950974_1280.jpg",
+      "product_image": "https://images.unsplash.com/photo-1547052178-7f2c5a20c332?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Audio",
       "price": 1999,
       "description": "Pocket-sized speaker with punchy sound and long battery life.",
@@ -56,7 +56,7 @@
     {
       "id": 4,
       "product_title": "Wireless Charging Pad",
-      "product_image": "https://cdn.pixabay.com/photo/2019/04/11/18/27/wireless-charger-4117440_1280.jpg",
+      "product_image": "https://images.unsplash.com/photo-1543472750-506bacbf5808?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Accessories",
       "price": 999,
       "description": "Charge your phone wirelessly with fast charging support.",
@@ -74,7 +74,7 @@
     {
       "id": 5,
       "product_title": "Home Security Camera",
-      "product_image": "https://cdn.pixabay.com/photo/2017/03/28/12/10/surveillance-2188455_1280.jpg",
+      "product_image": "https://www.security.org/app/uploads/2019/09/Lorex-Camera.png",
       "category": "Home Security",
       "price": 3499,
       "description": "HD camera with night vision and two-way audio for real-time home monitoring.",
@@ -92,7 +92,7 @@
     {
       "id": 6,
       "product_title": "Wireless Ergonomic Mouse",
-      "product_image": "https://cdn.pixabay.com/photo/2016/03/27/20/59/mouse-1284015_1280.jpg",
+      "product_image": "https://media.istockphoto.com/id/105675155/photo/modern-ergonomic-mouse-2-isolated.jpg?s=612x612&w=0&k=20&c=Fc2N4hxLe8MJ6OrZSOXr_bxCN5o5Tt98HB5zxFJk6CM=",
       "category": "Computer Accessories",
       "price": 1299,
       "description": "Comfortable wireless mouse with long battery life and customizable DPI.",
@@ -110,7 +110,7 @@
     {
       "id": 7,
       "product_title": "Smart LED Light Bulb",
-      "product_image": "https://cdn.pixabay.com/photo/2017/02/01/22/02/light-bulb-2037322_1280.jpg",
+      "product_image": "https://images.pexels.com/photos/29091470/pexels-photo-29091470/free-photo-of-smart-home-devices-collection-on-white-background.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "category": "Smart Home",
       "price": 799,
       "description": "Color-changing LED bulb controllable via smartphone or voice assistant.",
@@ -128,7 +128,7 @@
     {
       "id": 8,
       "product_title": "USB-C Hub with HDMI",
-      "product_image": "https://cdn.pixabay.com/photo/2017/05/10/13/21/usb-2308983_1280.jpg",
+      "product_image": "https://m.media-amazon.com/images/I/51N9sg0OmeL.jpg",
       "category": "Computer Accessories",
       "price": 1499,
       "description": "Multiport adapter with USB, HDMI, and card reader support.",
@@ -146,7 +146,7 @@
     {
       "id": 9,
       "product_title": "Wireless Keyboard",
-      "product_image": "https://cdn.pixabay.com/photo/2015/12/08/00/32/keyboard-1083983_1280.jpg",
+      "product_image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=865&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Computer Accessories",
       "price": 1799,
       "description": "Slim Bluetooth keyboard ideal for typing on the go.",
@@ -164,7 +164,7 @@
     {
       "id": 10,
       "product_title": "Smartphone Gimbal Stabilizer",
-      "product_image": "https://cdn.pixabay.com/photo/2020/08/08/20/29/gimbal-5472800_1280.jpg",
+      "product_image": "https://general.eg/wp-content/uploads/2023/04/Zhiyun-Smooth-Q4-Combo-1.jpg",
       "category": "Photography",
       "price": 5999,
       "description": "Capture cinematic video on your phone with 3-axis stabilization.",
@@ -182,7 +182,7 @@
     {
       "id": 11,
       "product_title": "VR Headset",
-      "product_image": "https://cdn.pixabay.com/photo/2017/01/10/02/22/vr-1965292_1280.jpg",
+      "product_image": "https://images.unsplash.com/photo-1657734240334-b13dfc3f6c91?q=80&w=786&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Gaming",
       "price": 8999,
       "description": "Immersive virtual reality headset compatible with multiple platforms.",
@@ -200,7 +200,7 @@
     {
       "id": 12,
       "product_title": "Digital DSLR Camera",
-      "product_image": "https://cdn.pixabay.com/photo/2015/05/13/23/57/camera-765183_1280.jpg",
+      "product_image": "https://images.unsplash.com/photo-1696713219412-0b08a5afe31c?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Photography",
       "price": 32999,
       "description": "DSLR camera with high-resolution sensor and versatile lens compatibility.",
@@ -218,7 +218,7 @@
     {
       "id": 13,
       "product_title": "Smartwatch with GPS",
-      "product_image": "https://cdn.pixabay.com/photo/2017/01/06/19/15/smartwatch-1950973_1280.jpg",
+      "product_image": "https://images.unsplash.com/photo-1617043983671-adaadcaa2460?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "category": "Wearables",
       "price": 5999,
       "description": "Stylish smartwatch with GPS tracking, heart rate monitoring, and notifications.",
@@ -236,7 +236,7 @@
     {
       "id": 14,
       "product_title": "Laptop Cooling Pad",
-      "product_image": "https://cdn.pixabay.com/photo/2020/08/01/06/44/laptop-5452884_1280.jpg",
+      "product_image": "https://www.lapcare.com/cdn/shop/files/1_b2468e97-3e2a-42b7-b221-a45a85970e5f.webp?v=1742810503",
       "category": "Computer Accessories",
       "price": 1299,
       "description": "Keep your laptop cool with this silent and adjustable cooling pad.",
@@ -254,7 +254,7 @@
     {
       "id": 15,
       "product_title": "Digital Drawing Tablet",
-      "product_image": "https://cdn.pixabay.com/photo/2021/09/22/11/32/drawing-tablet-6646592_1280.jpg",
+      "product_image": "https://www.shutterstock.com/image-photo/professional-graphics-tablet-digitized-pen-260nw-1800082033.jpg",
       "category": "Creative",
       "price": 8999,
       "description": "Pressure-sensitive drawing tablet for digital artists and designers.",
