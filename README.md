@@ -16,6 +16,7 @@ This is a simple React-based cart project that calculates the total cost of item
 ```js
 const newTotalCost = cartList.reduce((total, cart) => total + parseInt(cart.price), 0);
 
-🌐 Live Demo
+
+##🌐 Live Demo
 👉 https://chemical-low.surge.sh/
 
