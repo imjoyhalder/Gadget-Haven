@@ -8,6 +8,8 @@ This is a simple React-based cart project that calculates the total cost of item
 - Calculates and displays total cost dynamically.
 - React hooks (`useState`, `useEffect`) used for state management.
 
+##🌐 Live Demo
+👉 https://chemical-low.surge.sh/
 
 ## 🧠 Key Concepts
 
@@ -17,6 +19,5 @@ This is a simple React-based cart project that calculates the total cost of item
 const newTotalCost = cartList.reduce((total, cart) => total + parseInt(cart.price), 0);
 
 
-##🌐 Live Demo
-👉 https://chemical-low.surge.sh/
+
 
