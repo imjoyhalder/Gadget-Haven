@@ -1,11 +1,18 @@
 import rating from 'daisyui/components/rating';
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addToStoreProductList, getDataFormLocalStorage } from '../../Utilities/AddtoDB';
+import { ToastContainer, toast, Bounce, Zoom } from 'react-toastify';
 
 const ProductDetails = () => {
     const { productId } = useParams()
     const data = useLoaderData()
 
+    const handleAddToCart = (id) => {
+        addToStoreProductList(id)
+    }
+
+    const notify = () => toast('Wow so easy !');
 
     const product = data.find(gadget => gadget.id === parseInt(productId.slice(1)))
     const { availability, id, price, product_title, product_image, Specification, rating } = product
@@ -21,8 +28,8 @@ const ProductDetails = () => {
             </div>
 
             <div className="relative w-11/12 md:w-10/12 lg:w-8/12 mx-auto -top-24 border flex flex-col md:flex-row rounded-2xl bg-white p-4 gap-6 shadow-md">
-                <div className="flex justify-center md:w-1/2">
-                    <img className="rounded-2xl w-11/12 h-auto md:h-64 object-cover" src={product_image} alt="Product" />
+                <div className="flex justify-center ">
+                    <img className="rounded-2xl w-9/12 md:w-96   h-auto md:h- object-cover" src={product_image} alt="Product" />
                 </div>
 
                 <div className="md:w-1/2 space-y-4">
@@ -69,23 +76,35 @@ const ProductDetails = () => {
 
                     <div className="pt-4 flex flex-wrap items-center gap-4">
                         <button
+                            onClick={() => addToStoreProductList(id)}
                             style={{ background: 'rgb(149, 56, 226)' }}
                             className="btn text-white rounded-2xl px-4 py-2 flex items-center gap-2"
                         >
                             Add To Cart
                             <img className="w-5" src="https://img.icons8.com/?size=50&id=9671&format=png" alt="cart" />
                         </button>
-
+                        <ToastContainer
+                            position="top-right"
+                            autoClose={5000}
+                            hideProgressBar={false}
+                            newestOnTop={false}
+                            closeOnClick={false}
+                            rtl={false}
+                            pauseOnFocusLoss
+                            draggable
+                            pauseOnHover
+                            theme="colored"
+                            transition={Zoom}
+                        />
                         <button className="w-10 h-10 border rounded-full bg-slate-100 flex items-center justify-center">
                             <img className="w-6" src="https://img.icons8.com/?size=32&id=16076&format=png" alt="wishlist" />
                         </button>
+
                     </div>
                 </div>
             </div>
+
         </div>
-
-
-
     );
 };
 
