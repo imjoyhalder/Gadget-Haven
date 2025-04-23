@@ -1,12 +1,21 @@
-# React + Vite
+# 🛒 React Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React-based cart project that calculates the total cost of items in the cart using the `reduce()` method.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add products to cart (with price).
+- Calculates and displays total cost dynamically.
+- React hooks (`useState`, `useEffect`) used for state management.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Key Concepts
+
+- `useState` is used to manage cart items and total cost.
+- `reduce()` is used to calculate total cost from the cart list:
+```js
+const newTotalCost = cartList.reduce((total, cart) => total + parseInt(cart.price), 0);
+
+🌐 Live Demo
+👉 https://chemical-low.surge.sh/
+
