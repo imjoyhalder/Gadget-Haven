@@ -1,51 +1,44 @@
-import { ToastContainer, toast, Bounce,Zoom } from 'react-toastify';
-
-
+import { ToastContainer, toast, Zoom } from 'react-toastify';
 
 const getDataFormLocalStorage = () => {
-    const storedProductStr = localStorage.getItem('addToCartList')
-    if (storedProductStr) {
-        const storedList = JSON.parse(storedProductStr)
-        return storedList
-    }
-    else {
-        return []
-    }
-}
+    const storedProductStr = localStorage.getItem('addToCartList');
+    return storedProductStr ? JSON.parse(storedProductStr) : [];
+};
 
 const addToStoreProductList = (id) => {
-    const storedProductList = getDataFormLocalStorage()
+    const storedProductList = getDataFormLocalStorage();
     if (storedProductList.includes(id)) {
-        console.log(id, 'already exists')
-        toast()
         toast.warn('This Product already Exists!', {
             position: "top-right",
             autoClose: 2000,
-            hideProgressBar: false,
-            closeOnClick: false,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
             theme: "dark",
             transition: Zoom,
         });
-    }
-    else {
-        storedProductList.push(id)
-        const storedProductListStr = JSON.stringify(storedProductList)
-        localStorage.setItem('addToCartList', storedProductListStr)
+    } else {
+        storedProductList.push(id);
+        localStorage.setItem('addToCartList', JSON.stringify(storedProductList));
         toast.success('Add to Cart Successful!', {
             position: "top-right",
             autoClose: 2000,
-            hideProgressBar: false,
-            closeOnClick: false,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
             theme: "colored",
             transition: Zoom,
         });
     }
-}
+};
 
-export { getDataFormLocalStorage, addToStoreProductList }
+const deleteFormStoredProductList = (id) => {
+    const storedProductStr = localStorage.getItem('addToCartList');
+    if (storedProductStr) {
+        const storedProductList = JSON.parse(storedProductStr);
+        const afterDeletedProductList = storedProductList.filter(item => parseInt(item) !== parseInt(id));
+        localStorage.setItem('addToCartList', JSON.stringify(afterDeletedProductList));
+        toast.success('Item removed from cart!', {
+            position: "top-right",
+            autoClose: 1500,
+            theme: "colored",
+            transition: Zoom,
+        });
+    }
+};
+
+export { getDataFormLocalStorage, addToStoreProductList, deleteFormStoredProductList };

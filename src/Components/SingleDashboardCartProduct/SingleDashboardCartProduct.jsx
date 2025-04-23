@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { deleteFormStoredProductList } from '../../Utilities/AddtoDB';
 
-const SingleDashboardCartProduct = ({ item }) => {
+const SingleDashboardCartProduct = ({ item, handleDeleteItem}) => {
     const { price, Specification, product_image, product_title, id } = item
+    const [deleteItem, setDeleteItem] = useState([])
+
+    
+
     return (
         <div className='p-2'>
             <div className='flex bg-slate-200 p-5 gap-2 md:gap-5 items-center rounded-2xl shadow-xl relative'>
@@ -23,8 +28,8 @@ const SingleDashboardCartProduct = ({ item }) => {
                 </div>
 
                 {/* Delete Button */}
-                <div className='flex items-start'>
-                    <button className='hover:scale-105 transition-transform'>
+                <div onClick={()=>handleDeleteItem(id)} className='flex items-start'>
+                    <button  className='hover:scale-105 transition-transform'>
                         <img
                             className='w-6 h-6 md:w-10 md:h-10'
                             src="https://img.icons8.com/?size=80&id=102350&format=png"
@@ -35,7 +40,7 @@ const SingleDashboardCartProduct = ({ item }) => {
             </div>
         </div>
 
-
+        
     );
 };
 

@@ -2,8 +2,13 @@ import Link from 'daisyui/components/link';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import banner from '../../assets/banner.jpg'
+import Dashboard from '../Dashboard/Dashboard';
 
 const NavBar = () => {
+
+    const handleCart =() =>{
+        return <Dashboard></Dashboard>
+    }
 
     const links = <>
         <li className='text-lg'><NavLink to='/'>Home</NavLink></li>
@@ -32,7 +37,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end space-x-3">
-                <button className="bg-slate-50 p-2 rounded-full">
+                <button onClick={handleCart} className="bg-slate-50 p-2 rounded-full">
                     <img
                         src="https://img.icons8.com/ios-filled/24/000000/shopping-cart.png"
                         alt="Cart"
