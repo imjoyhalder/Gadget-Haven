@@ -10,6 +10,7 @@ import Root from './Components/Root/Root.jsx';
 import Home from './Components/Home/Home.jsx';
 import ProductDetails from './Components/ProductDetails.jsx/ProductDetails.jsx';
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
+import AboutUs from './Components/AboutUs/AboutUs.jsx';
 
 
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path:'/dashboard', 
         element: <Dashboard></Dashboard>
+      }, 
+      {
+        path:'/about-us', 
+        element: <AboutUs></AboutUs>
       }
       
     ]
